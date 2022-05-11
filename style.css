@@ -1,0 +1,179 @@
+#container {
+	max-width:640px;
+	margin:10px auto 20px auto;
+	padding:0 20px;
+/*
+	font-family:"Helvetica .Neue",Arial,"Hiragino .Kaku .Gothic .ProN","Hiragino .Sans","BIZ .UDPGothic",Meiryo,sans-serif;
+*/
+	font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
+	font-feature-settings:"palt";
+	box-sizing:border-box margin: 0 auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+
+
+.main {
+	margin:0 auto;
+}
+
+.title {
+	margin:0 auto;
+}
+
+.title img {
+	width: 100%;
+}
+
+.flex {
+	display: flex;
+ 	justify-content: space-between;
+	text-align: left;
+}
+
+.txt-jpn {
+	width: 55%;
+}
+
+.txt-en {
+	width: 40%;
+	line-height: 130%;
+}
+.panel_box{
+	margin:0 auto;
+	/*
+	justify-content: space-between;
+	*/
+}
+
+.panel_box img{
+	width: 32%;
+	margin-bottom: 1em;
+}
+
+/*
+	 概要
+*/
+.overview {
+	margin:40px auto;
+	width:100%;
+}
+
+
+.ovv_btn,
+.ovv_lnk,
+.ovv_title {
+	margin:20px auto;
+	width:100%;
+}
+
+.ovv_text{
+	font-size: 2.3vw;
+}
+
+.ovv_img{
+	margin:20px auto 0 auto;
+	width:100%;
+}
+
+.overview p {
+	text-align:left;
+	width:100%;
+	margin:0 auto;
+
+}
+
+.ovv_title img {
+	width: 100%;
+}
+/* 概要　タイトル　背景色　１～６ */
+
+.ovv_img img {
+	padding: 3.5px;
+	width: 60%;
+	height: auto;
+}
+
+.num{
+	font-size: 8px;
+}
+
+ovv_btn img{
+	padding: 3.5px;
+}
+
+.ovv_lnk a{
+	color:#7F7F7F;
+	text-decoration: none;
+	border: 1px solid;
+	padding:2px 2px;
+	margin:0.25em 0.25em;
+}
+
+.ovv_lnk{
+	text-align: left;
+}
+
+.ovv_lnk a:hover{
+	color:#FFFFFF;
+	background-color:#7F7F7F;
+}
+
+#page_top{
+  width: 90px;
+  height: 60px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+  border: 3px solid #3f98ef;
+  border-radius: 15px;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 90px;
+  height: 60px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f062';
+  font-size: 25px;
+  color: #3f98ef;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -25px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+#page_top a::after{
+  content: '先頭へ';
+  font-size: 13px;
+  color: #3f98ef;
+  position: absolute;
+  top: 38px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+@media screen and (min-width: 400px), print{
+	.ovv_img img{
+		width:30%;
+	}
+}
+
+@media screen and (min-width: 712px), print{
+	.ovv_text{
+		font-size: 16px;
+	}
+}
