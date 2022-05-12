@@ -69,7 +69,7 @@
 }
 
 .ovv_text{
-	font-size: 2.3vw;
+	font-size: 3.0vw;
 }
 
 .ovv_img{
@@ -99,8 +99,10 @@
 	font-size: 8px;
 }
 
-ovv_btn img{
+.ovv_btn img{
 	padding: 3.5px;
+	width: 30%;
+	height: auto;
 }
 
 .ovv_lnk a{
@@ -169,6 +171,10 @@ ovv_btn img{
 @media screen and (min-width: 400px), print{
 	.ovv_img img{
 		width:30%;
+	}
+	
+	.ovv_text{
+		font-size:2.3vw;
 	}
 }
 
