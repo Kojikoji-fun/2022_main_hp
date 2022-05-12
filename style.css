@@ -119,7 +119,36 @@
 	background-color:#7F7F7F;
 }
 
-#page_top{
+
+
+@media screen and (min-width: 400px), print{
+	.ovv_img img{
+		width:30%;
+	}
+	
+	.ovv_text{
+		font-size:2.3vw;
+	}
+	
+	.ovv_btn img{
+		width: 30%;
+	}
+	
+	.flex {
+	display: flex;
+ 	justify-content: space-between;
+	text-align: left;
+	}
+	.txt-jpn {
+		width: 55%;
+	}
+
+	.txt-en {
+		width: 40%;
+		line-height: 130%;
+	}
+	
+	#page_top{
   width: 90px;
   height: 60px;
   position: fixed;
@@ -163,32 +192,6 @@
   left: 0;
   margin: auto;
   text-align: center;
-}
-
-@media screen and (min-width: 400px), print{
-	.ovv_img img{
-		width:30%;
-	}
-	
-	.ovv_text{
-		font-size:2.3vw;
-	}
-	
-	.ovv_btn img{
-		width: 30%;
-	}
-	
-	.flex {
-	display: flex;
- 	justify-content: space-between;
-	text-align: left;
-	}
-	.txt-jpn {
-	width: 100%;
-}
-
-.txt-en {
-	width: 100%;
 }
 }
 
