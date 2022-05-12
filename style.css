@@ -33,12 +33,11 @@
 }
 
 .txt-jpn {
-	width: 55%;
+	width: 100%;
 }
 
 .txt-en {
-	width: 40%;
-	line-height: 130%;
+	width: 100%;
 }
 .panel_box{
 	margin:0 auto;
@@ -178,7 +177,16 @@
 	}
 	
 	.ovv_btn img{
-	width: 30%;
+		width: 30%;
+	}
+	
+	.txt-jpn {
+		width: 55%;
+	}
+
+	.txt-en {
+		width: 40%;
+		line-height: 130%;
 	}
 }
 
