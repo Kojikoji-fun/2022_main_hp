@@ -101,7 +101,7 @@
 
 .ovv_btn img{
 	padding: 3.5px;
-	width: 30%;
+	width: 35%;
 	height: auto;
 }
 
@@ -175,6 +175,10 @@
 	
 	.ovv_text{
 		font-size:2.3vw;
+	}
+	
+	.ovv_btn img{
+	width: 30%;
 	}
 }
 
