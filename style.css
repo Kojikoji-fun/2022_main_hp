@@ -139,9 +139,9 @@
 	}
 	
 	.flex {
-	display: flex;
- 	justify-content: space-between;
-	text-align: left;
+		display: flex;
+ 		justify-content: space-between;
+		text-align: left;
 	}
 	.txt-jpn {
 		width: 55%;
@@ -149,7 +149,6 @@
 
 	.txt-en {
 		width: 40%;
-		line-height: 130%;
 	}
 	
 	#page_top{
