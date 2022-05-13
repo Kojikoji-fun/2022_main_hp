@@ -121,7 +121,7 @@
 
 
 
-@media screen and (min-width: 400px), print{
+@media screen and (min-width: 450px), print{
 	.ovv_img img{
 		width:30%;
 	}
