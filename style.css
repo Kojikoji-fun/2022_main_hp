@@ -45,7 +45,7 @@
 }
 
 .panel_box img{
-	width: 32%;
+	width: 45%;
 	margin-bottom: 1em;
 }
 
@@ -122,6 +122,10 @@
 
 
 @media screen and (min-width: 450px), print{
+	.panel_box img{
+		width: 32%;
+	}
+	
 	.ovv_img img{
 		width:30%;
 	}
