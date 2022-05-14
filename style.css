@@ -7,7 +7,7 @@
 */
 	font-family: "Times New Roman", "YuMincho", "Hiragino Mincho ProN", "Yu Mincho", "MS PMincho", serif;
 	font-feature-settings:"palt";
-	box-sizing:border-box margin: 0 auto;
+	box-sizing:border-box;
 	text-align: center;
 	overflow: hidden;
 }
