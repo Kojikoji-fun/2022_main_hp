@@ -73,6 +73,23 @@
 	width:100%;
 }
 
+.ovv_imgbox{
+	width:60%;
+	margin:0 auto;
+}
+
+.ovv_imgbox img {
+	padding: 3.5px;
+	width: 100%;
+	height: auto;
+}
+
+.ovv_imgbox p{
+	font-size:3.5vw;
+	padding-left: 0.4vw;
+	border-left: 1.2vw solid #00CCCC;
+}
+
 .overview p {
 	text-align:left;
 	width:100%;
@@ -85,11 +102,7 @@
 }
 /* 概要　タイトル　背景色　１～６ */
 
-.ovv_img img {
-	padding: 3.5px;
-	width: 55%;
-	height: auto;
-}
+
 
 .num{
 	font-size: 8px;
@@ -136,10 +149,18 @@
 		width: 32%;
 	}
 	
-	.ovv_img img{
+	.ovv_imgbox{
 		width:30%;
 	}
-	
+
+
+	.ovv_imgbox p{
+		font-size:2vw;
+		padding-left: 0.4vw;
+		border-left: 0.7vw solid #00CCCC;
+		
+	}
+
 	.ovv_text{
 		font-size:2.3vw;
 	}
@@ -178,5 +199,10 @@
 
 	.references{
 		font-size: 16px;
+	}
+
+	.ovv_imgbox p{
+		font-size: 16px;
+		border-left: 6px solid #00CCCC;
 	}
 }
