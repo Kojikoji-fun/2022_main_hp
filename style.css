@@ -118,7 +118,13 @@
 	background-color:#7F7F7F;
 }
 
-
+#page_top img{
+	width: 10%;
+	height: auto;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
 
 @media screen and (min-width: 450px), print{
 	.panel_box img{
@@ -195,6 +201,9 @@
   margin: auto;
   text-align: center;
 }
+	#page_top img{
+		width:0%;
+	}
 }
 
 @media screen and (min-width: 712px), print{
