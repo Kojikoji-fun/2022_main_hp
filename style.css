@@ -78,7 +78,8 @@
 
 .ovv_imgbox{
 	width:60%;
-	margin:0 auto;
+	margin:5px auto;
+
 }
 
 .ovv_imgbox img {
@@ -90,7 +91,8 @@
 .ovv_imgbox p{
 	font-size:3.5vw;
 	padding-left: 0.4vw;
-	border-left: 1.2vw solid #00CCCC;
+	border-left: 1.4vw solid #00CCCC;
+	width: 95%;
 }
 
 .overview p {
@@ -108,7 +110,7 @@
 
 
 .num{
-	font-size: 8px;
+	font-size: 10px;
 }
 
 .ovv_btn img{
@@ -153,15 +155,15 @@
 	}
 	
 	.ovv_imgbox{
-		width:30%;
+		width:32%;
 	}
 
 
 	.ovv_imgbox p{
 		font-size:2vw;
 		padding-left: 0.4vw;
-		border-left: 0.7vw solid #00CCCC;
-		
+		border-left: 0.9vw solid #00CCCC;
+		width: 95%;
 	}
 
 	.ovv_text{
@@ -206,6 +208,8 @@
 
 	.ovv_imgbox p{
 		font-size: 16px;
-		border-left: 6px solid #00CCCC;
+		border-left: 8px solid #00CCCC;
+		width: 95%;
+
 	}
 }
