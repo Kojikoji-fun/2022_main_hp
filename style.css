@@ -61,9 +61,18 @@
 
 
 .ovv_btn,
-.ovv_lnk,
-.ovv_title {
+.ovv_lnk {
 	margin:20px auto;
+	width:100%;
+}
+
+.ovv_title {
+	margin:0 auto;
+	width:100%;
+}
+
+.ovv_title2 {
+	margin:0 auto 20px auto;
 	width:100%;
 }
 
@@ -102,7 +111,7 @@
 
 }
 
-.ovv_title img {
+.ovv_title img,.ovv_title2 img {
 	width: 100%;
 }
 /* 概要　タイトル　背景色　１～６ */
